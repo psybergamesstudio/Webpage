@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PsyberGamesStudio — Enter the Psyberverse</title>
+    <meta name="description" content="PsyberGamesStudio is an indie game studio crafting atmospheric sci-fi, horror and narrative-driven games. Enter the Psyberverse.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="resources/css/style.css">
+    <link rel="icon" href="resources/images/Psyber Games logo FINAL.jpg">
+</head>
+<body>
+
+    <!-- ========================= -->
+    <!-- HEADER -->
+    <!-- ========================= -->
+    <header class="site-header">
+        <div class="container header-inner">
+            <a href="#home" class="logo" aria-label="PsyberGamesStudio Home">
+                <img class="logo-img" src="resources/images/Psyber Games logo FINAL.jpg" alt="Psyber Games Studio Logo">
+                Psyber<span>Games</span>Studio
+            </a>
+
+            <nav class="desktop-nav" aria-label="Primary">
+                <a href="#home">Home</a>
+                <a href="#games">Games</a>
+                <a href="#about">About</a>
+                <a href="#team">Team</a>
+                <a href="#contact">Contact</a>
+            </nav>
+
+            <button class="menu-button" aria-expanded="false" aria-label="Open menu" aria-controls="mobile-nav">
+                <span class="menu-icon">☰</span>
+            </button>
+        </div>
+
+        <!-- Mobile Nav -->
+        <nav id="mobile-nav" class="mobile-nav" aria-label="Mobile">
+            <a href="#home">Home</a>
+            <a href="#games">Games</a>
+            <a href="#about">About</a>
+            <a href="#team">Team</a>
+            <a href="#contact">Contact</a>
+            <div class="mobile-nav-cta">
+                <a href="#games" class="btn btn-primary">Explore Games</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ========================= -->
+    <!-- HERO -->
+    <!-- ========================= -->
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-bg" aria-hidden="true">
+                <div class="hero-grid"></div>
+                <div class="hero-glow hero-glow-1"></div>
+                <div class="hero-glow hero-glow-2"></div>
+            </div>
+            <div class="container hero-inner">
+                <div class="hero-content reveal">
+                    <p class="eyebrow">INDIE STUDIO • SCOTLAND • EST 2021</p>
+                    <h1>We build<br><span class="gradient-text">worlds that<br>haunt you.</span></h1>
+                    <p class="hero-subtitle">
+                        PsyberGamesStudio crafts atmospheric sci-fi, psychological horror and narrative-driven experiences.
+                        Small team. Big universes. No microtransactions.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="#games" class="btn btn-primary">Play Our Worlds →</a>
+                        <button class="btn btn-ghost" data-modal-target="trailer-modal">▶ Watch Trailer</button>
+                    </div>
+                    <div class="hero-stats">
+                        <div><strong>2021</strong><span>RiftRiders<br>Legacy</span></div>
+                        <div><strong>2026</strong><span>Twitch Out<br>Coming Soon</span></div>
+                        <div><strong>100%</strong><span>Indie &amp;<br>Scottish Studio</span></div>
+                    </div>
+                </div>
+                <div class="hero-visual reveal">
+                    <div class="hero-card">
+                        <div class="hero-card-badge">NOW IN EARLY ACCESS</div>
+                        <div class="hero-card-art">
+                            <img class="hero-card-logo" src="resources/images/Psyber Games logo FINAL.jpg" alt="Psyber Games Studio">
+                            <span>ENTER THE PSYBERVERSE</span>
+                            <small>ORIGINAL WORLDS • BUILT WITH SIGNAL</small>
+                        </div>
+                        <div class="hero-card-footer">
+                            <span>★ Coming Soon: Twitch Out</span>
+                            <button class="btn btn-small" data-modal-target="game-twitch-modal">View Details</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========================= -->
+        <!-- GAMES -->
+        <!-- ========================= -->
+        <section id="games" class="section games-section">
+            <div class="container">
+                <div class="section-head reveal">
+                    <div>
+                        <p class="eyebrow">OUR TRANSMISSIONS</p>
+                        <h2>The Games</h2>
+                        <p class="section-desc">Two journeys — one legacy, one about to begin. Both built with pure Psyber signal.</p>
+                    </div>
+                    <div class="filter-bar">
+                        <button class="filter-btn active" data-filter="all">All</button>
+                        <button class="filter-btn" data-filter="coming-soon">Coming Soon</button>
+                        <button class="filter-btn" data-filter="legacy">Legacy</button>
+                    </div>
+                </div>
+
+                <div class="games-grid games-grid--two">
+                    <!-- TWITCH OUT — COMING SOON 2026 -->
+                    <article class="game-card reveal" data-category="coming-soon">
+                        <div class="game-thumb game-thumb--image">
+                            <img src="resources/games/TwitchOutIconFinal.png" alt="Twitch Out - Vanishing Light Reflex Game" loading="lazy">
+                            <span class="game-tag">COMING SOON • 2026 • GOOGLE PLAY</span>
+                        </div>
+                        <div class="game-body">
+                            <h3>Twitch Out</h3>
+                            <p>Tap the vanishing light before it disappears. Every tap makes it faster — until you hit the <em>Twitch Point</em>, the boundary of human reaction speed.</p>
+                            <div class="game-meta">
+                                <span>Android • Google Play</span>
+                                <span>•</span>
+                                <span>Final Stages</span>
+                            </div>
+                            <ul class="game-features">
+                                <li>⚡ Single & Double Light Modes</li>
+                                <li>🎨 13 Unlockable Colours</li>
+                                <li>🏆 Live Leaderboards & Twitch King / Demon Titles</li>
+                            </ul>
+                            <button class="btn btn-primary btn-full" data-modal-target="game-twitch-modal">Discover Twitch Out</button>
+                            <a href="https://scottishgames.net/2026/08/21/coming-soon-twitch-out-from-psyber-games-studios/" target="_blank" rel="noopener" class="game-press-link">→ Featured on Scottish Games Network</a>
+                        </div>
+                    </article>
+
+                    <!-- RIFT RIDERS — LEGACY 2021 -->
+                    <article class="game-card reveal" data-category="legacy">
+                        <div class="game-thumb game-thumb--image">
+                            <img src="resources/games/RiftRiders.jpg" alt="RiftRiders - Ride the Rift Portal" loading="lazy">
+                            <span class="game-tag">LEGACY • 2021 • GOOGLE PLAY</span>
+                        </div>
+                        <div class="game-body">
+                            <h3>RiftRiders</h3>
+                            <p>Ride as a Rift Rider through the rift portal — collect power-ups and coins to expand your rift board inventory and unlock new playable content.</p>
+                            <div class="game-meta">
+                                <span>Android • Google Play</span>
+                                <span>•</span>
+                                <span>2021 – Discontinued</span>
+                            </div>
+                            <ul class="game-features">
+                                <li>🌀 Endless Rift Runner</li>
+                                <li>🔋 Power-ups & Coin Collection</li>
+                                <li>🧩 Expandable Rift Board Inventories</li>
+                            </ul>
+                            <button class="btn btn-ghost btn-full" data-modal-target="game-rift-modal">View Legacy</button>
+                            <p class="game-legacy-note">Discontinued — awaiting fresh rebuild with expanded functionality.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========================= -->
+        <!-- ABOUT -->
+        <!-- ========================= -->
+        <section id="about" class="section about-section">
+            <div class="container about-grid">
+                <div class="reveal">
+                    <p class="eyebrow">WHY PSYBER?</p>
+                    <h2>We’re not AAA.<br>That’s the point.</h2>
+                    <p>
+                        PsyberGamesStudio was founded solo with one rule:
+                        <em>make the game we’re dying to play, even if no one asked for it.</em>
+                        One founder. One vision. No middlemen.
+                    </p>
+                    <p>
+                        No publishers. No crunch. No loot boxes. We build slow, atmospheric games that respect your time
+                        and your intelligence — inspired by <strong>Anatomy</strong>, <strong>Signalis</strong>, <strong>Outer Wilds</strong> and late-night radio static.
+                    </p>
+                    <ul class="about-list">
+                        <li>✓ Built primarily in Unity — solo-dev friendly</li>
+                        <li>✓ Original synth scores & lo-fi sound design</li>
+                        <li>✓ Lore drops via devlogs, not DLC roadmaps — community helps shape the games</li>
+                    </ul>
+                    <a href="#team" class="btn btn-ghost">Meet the team ↓</a>
+                </div>
+                <div class="about-cards reveal">
+                    <div class="about-card">
+                        <h4>◈ Design Pillars</h4>
+                        <p>Atmosphere over action. Loneliness as a mechanic. Every environment tells a story.</p>
+                    </div>
+                    <div class="about-card">
+                        <h4>◎ Our Stack</h4>
+                        <p><strong>Unity</strong> • Blender (3D) • Pyxel Edit & Clip Studio Paint (2D) • Hand-crafted shaders • Synth / lo-fi scores — production varies per project, rooted in late-80s synth &amp; early-90s nostalgia</p>
+                    </div>
+                    <div class="about-card">
+                        <h4>▣ The Psyberverse</h4>
+                        <p>All games share the same universe signal — a mysterious transmission that connects every story.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========================= -->
+        <!-- TEAM -->
+        <!-- ========================= -->
+        <section id="team" class="section team-section">
+            <div class="container">
+                <div class="section-head reveal">
+                    <div>
+                        <p class="eyebrow">THE SIGNAL BEHIND THE SIGNAL</p>
+                        <h2>The Founder</h2>
+                        <p class="section-desc">One vision. One studio. Built from scratch.</p>
+                    </div>
+                </div>
+
+                <div class="team-grid--solo reveal">
+                    <div class="team-card--founder">
+                        <img class="team-avatar--photo" src="resources/team/me.jpg" alt="Founder - PsyberGamesStudio CEO">
+                        <h3>CEO / Founder</h3>
+                        <p class="team-role">The Idea Behind The Scenes</p>
+                        <p>
+                            Founder, director and sole force behind PsyberGamesStudio. Every world, every signal, every sleepless
+                            night — built to prove that a single focused vision can create universes that feel infinite.
+                            No committee. No compromise. Just pure Psyber.
+                        </p>
+                        <div class="team-links">
+                            <a href="#contact" aria-label="Contact">✉</a>
+                            <a href="#" aria-label="Twitter">𝕏</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========================= -->
+        <!-- CONTACT / NEWSLETTER -->
+        <!-- ========================= -->
+        <section id="contact" class="section contact-section">
+            <div class="container contact-grid">
+                <div class="reveal">
+                    <p class="eyebrow">ESTABLISH CONTACT</p>
+                    <h2>Join the<br>Psyberverse</h2>
+                    <p>Get devlogs, playable demos and lore drops — no spam, one transmission per month.</p>
+
+                    <form id="newsletter-form" class="newsletter-form" action="https://formsubmit.co/psybergamesstudio@gmail.com" method="POST" novalidate>
+                        <input type="hidden" name="_subject" value="New Newsletter Signal – PsyberGamesStudio">
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="hidden" name="_template" value="table">
+                        <input type="hidden" name="_next" value="">
+                        <label for="newsletter-email" class="sr-only">Email address</label>
+                        <input type="email" id="newsletter-email" name="email" placeholder="you@signal.lost" required autocomplete="email">
+                        <button type="submit" class="btn btn-primary">Join Transmission</button>
+                        <p class="form-status" id="newsletter-status" aria-live="polite"></p>
+                    </form>
+                    <p class="form-hint">By joining you agree to our signal protocol. Unsubscribe anytime.</p>
+
+                    <div class="social-row">
+                        <a href="#" class="social-link">Steam</a>
+                        <a href="#" class="social-link">itch.io</a>
+                        <a href="#" class="social-link">YouTube</a>
+                        <a href="#" class="social-link">Discord</a>
+                        <a href="#" class="social-link">𝕏 / Twitter</a>
+                    </div>
+                </div>
+
+                <form id="contact-form" class="contact-form reveal" action="https://formsubmit.co/psybergamesstudio@gmail.com" method="POST" novalidate>
+                    <h3>Send a Signal</h3>
+                    <input type="hidden" name="_subject" value="New Contact Signal – PsyberGamesStudio">
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_template" value="table">
+                    <div class="form-group">
+                        <label for="contact-name">Name</label>
+                        <input type="text" id="contact-name" name="name" placeholder="Your callsign" required autocomplete="name">
+                    </div>
+                    <div class="form-group">
+                        <label for="contact-email">Email</label>
+                        <input type="email" id="contact-email" name="email" placeholder="you@void.mail" required autocomplete="email">
+                    </div>
+                    <div class="form-group">
+                        <label for="contact-message">Message</label>
+                        <textarea id="contact-message" name="message" rows="4" placeholder="Press playtest, collab, or just say hi..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">Transmit Message</button>
+                    <p class="form-status" id="contact-status" aria-live="polite"></p>
+                    <p class="form-hint">Direct to <strong>psybergamesstudio@gmail.com</strong> — we read every message. Usually reply in 48h.</p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- ========================= -->
+    <!-- FOOTER -->
+    <!-- ========================= -->
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <div>
+                <div class="footer-brand">
+                    <img class="footer-logo-img" src="resources/images/Psyber Games logo FINAL.jpg" alt="Psyber Games Studio">
+                    <p class="footer-logo">PsyberGamesStudio</p>
+                </div>
+                <p class="footer-copy">© <span id="current-year">2026</span> PsyberGamesStudio. Made with static and love in the UK.<br>All trademarks are property of their owners. No AI was trained on your nightmares.</p>
+            </div>
+            <div class="footer-links">
+                <a href="#">Press Kit</a>
+                <a href="#">Privacy</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ========================= -->
+    <!-- MODALS -->
+    <!-- ========================= -->
+
+    <!-- Trailer Modal — Local Video: resources/Videos/Final.mp4 -->
+    <div id="trailer-modal" class="modal-overlay" hidden aria-hidden="true">
+        <div class="modal" role="dialog" aria-modal="true" aria-labelledby="trailer-title">
+            <button class="modal-close" data-close-modal aria-label="Close">✕</button>
+            <h3 id="trailer-title">Psyber Games Studio — Introduction</h3>
+            <p class="modal-desc">Introduction video — tap to play. Auto-pauses when you close this window.</p>
+            <div class="modal-media" style="background:#000;">
+                <video controls preload="metadata" playsinline poster="resources/images/Psyber Games logo FINAL.jpg" style="width:100%; height:auto; display:block; border-radius:12px; background:#000;">
+                    <source src="resources/Videos/Final.mp4" type="video/mp4">
+                    Your browser does not support the video tag. <a href="resources/Videos/Final.mp4">Download the video</a>
+                </video>
+            </div>
+            <div class="modal-actions">
+                <a href="#games" class="btn btn-primary modal-jump-link">Browse Games</a>
+                <button class="btn btn-ghost" data-close-modal>Close</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Game: Twitch Out -->
+    <div id="game-twitch-modal" class="modal-overlay" hidden aria-hidden="true">
+        <div class="modal" role="dialog" aria-modal="true" aria-labelledby="twitch-title">
+            <button class="modal-close" data-close-modal aria-label="Close">✕</button>
+            <span class="eyebrow">COMING SOON • 2026 • GOOGLE PLAY</span>
+            <h3 id="twitch-title">Twitch Out</h3>
+            <div class="modal-media">
+                <img src="resources/games/TwitchOutIconFinal.png" alt="Twitch Out Icon" style="width:100%; height:auto; display:block; border-radius:12px;">
+            </div>
+            <p><strong>High-stakes simplicity.</strong> Tap the vanishing light before it disappears. With every successful tap the light vanishes faster — until you reach the <em>Twitch Point</em>, the boundary of human reaction speed.</p>
+            <p>Built around an immediate, accessible one-tap loop with competitive progression to drive replayability.</p>
+            <ul class="modal-list">
+                <li>⚡ <strong>Single & Double Light Modes</strong> — classic reflex training + dual-light challenge</li>
+                <li>🎨 <strong>13 Unlockable Colours</strong> — customise your light with coins earned in-game or via optional in-app purchases</li>
+                <li>🏆 <strong>Live Leaderboards</strong> — integrated rankings to challenge for top positions</li>
+                <li>👑 <strong>Prestige Hierarchy</strong> — Twitch King & Twitch Demon skill titles with shield and challenge mechanics to defend or claim #1</li>
+            </ul>
+            <div class="modal-quote">
+                <p>“Coming Soon: Twitch Out from Psyber Games Studios” — featured on <a href="https://scottishgames.net/2026/08/21/coming-soon-twitch-out-from-psyber-games-studios/" target="_blank" rel="noopener">Scottish Games Network</a></p>
+            </div>
+            <p class="modal-desc">Twitch Out is in final stages of production and will be available on Google Play Store in the coming weeks.</p>
+            <div class="modal-actions">
+                <a href="https://scottishgames.net/2026/08/21/coming-soon-twitch-out-from-psyber-games-studios/" target="_blank" rel="noopener" class="btn btn-primary">Read Feature Article</a>
+                <button class="btn btn-ghost" data-close-modal>Close</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Game: RiftRiders -->
+    <div id="game-rift-modal" class="modal-overlay" hidden aria-hidden="true">
+        <div class="modal" role="dialog" aria-modal="true" aria-labelledby="rift-title">
+            <button class="modal-close" data-close-modal aria-label="Close">✕</button>
+            <span class="eyebrow">LEGACY • 2021 • DISCONTINUED</span>
+            <h3 id="rift-title">RiftRiders</h3>
+            <div class="modal-media">
+                <img src="resources/games/RiftRiders.jpg" alt="RiftRiders - Rift Portal Artwork" style="width:100%; height:auto; display:block; border-radius:12px;">
+            </div>
+            <p><strong>Ride the Rift.</strong> Players ride as a Rift Rider through the rift portal, collecting power-ups and coins to expand the rift board inventories and unlock new playable content.</p>
+            <p>Originally released on Google Play Store in 2021, RiftRiders has since been discontinued — a legacy title that laid the foundation for Psyber Games Studio.</p>
+            <ul class="modal-list">
+                <li>🌀 Endless rift-running through the portal</li>
+                <li>🔋 Collect power-ups & coins mid-ride</li>
+                <li>🧩 Expand rift board inventories</li>
+                <li>🔓 Unlock new playable content</li>
+            </ul>
+            <p class="modal-desc" style="background: rgba(214,228,0,0.10); border: 1px solid rgba(214,228,0,0.22); padding: 10px 12px; border-radius: 10px; color: var(--accent-soft);"><strong style="color: var(--accent);">Future Plans:</strong> Perhaps one day RiftRiders will be redeveloped and relaunched with a whole bunch of newly added functionality.</p>
+            <div class="modal-actions">
+                <a href="#contact" class="btn btn-primary modal-jump-link">Rebuild Interest? Get in Touch</a>
+                <button class="btn btn-ghost" data-close-modal>Close</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
