@@ -425,7 +425,7 @@ document.addEventListener('DOMContentLoaded', () => {
             } catch (err) {
                 console.error('[PsyberGamesStudio] Newsletter failed, falling back to mailto:', err);
                 if (newsletterStatus) {
-                    newsletterStatus.textContent = '⚠ Direct send failed — opening your email app as fallback.';
+                    newsletterStatus.textContent = '⚠ Direct send failed. Opening your email app as fallback.';
                     newsletterStatus.style.color = '#fbbf24';
                 }
                 // Fallback: open user's mail client
@@ -501,7 +501,7 @@ document.addEventListener('DOMContentLoaded', () => {
             } catch (err) {
                 console.error('[PsyberGamesStudio] Contact failed, fallback to mailto:', err);
                 if (contactStatus) {
-                    contactStatus.textContent = '⚠ Direct send failed — opening your email app.';
+                    contactStatus.textContent = '⚠ Direct send failed. Opening your email app.';
                     contactStatus.style.color = '#fbbf24';
                 }
                 const subject = encodeURIComponent(`Contact Signal from ${nameVal} – PsyberGamesStudio`);
